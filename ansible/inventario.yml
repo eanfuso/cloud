@@ -1,0 +1,13 @@
+vagrantbox:
+  hosts:
+    devops:
+      ansible_host: 192.168.5.187 
+      ansible_user: vagrant
+      ansible_port: 22
+      ansible_ssh_private_key_file: "/home/cloud/modulo3/.vagrant/machines/devops/virtualbox/private_key"
+
+    devops-2:
+      ansible_host: 192.168.5.188 
+      ansible_user: vagrant
+      ansible_port: 22
+      ansible_ssh_private_key_file: "/home/cloud/modulo3/.vagrant/machines/devops-2/virtualbox/private_key"    

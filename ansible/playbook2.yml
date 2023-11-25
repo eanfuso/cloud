@@ -1,0 +1,9 @@
+---
+- name: Mi primer playbook
+  hosts: devops 
+  remote_user: vagrant
+
+  tasks:
+  - name: Haciendo ping...
+    ansible.builtin.ping:
+     

@@ -1,0 +1,10 @@
+---
+- name: mi primer playbooks  #playbokk de ansible: rutinas a ejecutar en los server desplegados:
+  hosts: devops 
+  remote_user: vagrant
+  
+  tasks: 
+  - name: ping all host
+    ansible.builtin.ping: 
+
+#-import_playbook: playbooks-webserver.yml
